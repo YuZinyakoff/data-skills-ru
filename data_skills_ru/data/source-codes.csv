@@ -1,0 +1,11 @@
+﻿code;kind;current_rows;reference;description
+ACEMOGLU_BROAD;external_concept_or_method;2;https://doi.org/10.1086/718327;"Широкий перечень ИИ-компетенций; авторская адаптация к задаче AD."
+ACEMOGLU_NARROW;external_concept_or_method;28;https://doi.org/10.1086/718327;"Узкий перечень ИИ-компетенций; русские выражения разработаны в проекте."
+ALEKSEEVA_AI_SKILLS;external_concept_or_method;42;https://doi.org/10.1016/j.labeco.2021.102002;"Перечень ИИ-компетенций; наличие кода не подтверждает каждый вариант написания."
+BABINA_CLEANING;external_concept_or_method;1;https://doi.org/10.1016/j.jfineco.2023.103745;Методический ориентир разграничения предметных значений.
+BABINA_CORE;external_concept_or_method;4;https://doi.org/10.1016/j.jfineco.2023.103745;Основные ИИ-понятия из исследования.
+BABINA_RELATED_SKILL;external_concept_or_method;1;https://doi.org/10.1016/j.jfineco.2023.103745;"Связанная технология; принадлежность к основным четырём понятиям не подразумевается."
+ONET_DATA_SCIENTIST;external_concept_or_method;2;https://www.onetonline.org/link/summary/15-2051.00;"Описание профессии Data Scientists; историческая терминология сверялась также по O*NET 23.3."
+SKLEARN_SUPERVISED;external_concept_or_method;2;https://scikit-learn.org/1.0/supervised_learning.html;"Терминология методов; отнесение к группе и контекст задаёт проект."
+VOLGIN_GIMPELSON_METHOD;external_concept_or_method;1;https://doi.org/10.17323/1813-8691-2022-26-3-343-374;"Методический ориентир анализа русскоязычных навыков; не источник готовых regex."
+AUTHOR;project_authored;203;;Авторская разработка русских поисковых выражений и контекстных условий.

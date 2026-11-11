@@ -1,0 +1,105 @@
+{
+  "dictionary_version": "0.1.0",
+  "population_postings": 6087485,
+  "primary_unique_texts": 13442,
+  "primary_posting_ids": 13502,
+  "repeat_texts": 1345,
+  "known_groups": 1580,
+  "known_postings": 2037,
+  "allocation": [
+    {
+      "cell": "N_BACKGROUND",
+      "residual_postings": 5381904,
+      "residual_groups": 4102800,
+      "sampled_posting_ids": 8000,
+      "inclusion_probability": 0.0014864627834312912,
+      "posting_weight": 672.738,
+      "expected_unique_texts": 7984.733823442759,
+      "predicted_AD": 0,
+      "predicted_E": 0
+    },
+    {
+      "cell": "N_DB",
+      "residual_postings": 52,
+      "residual_groups": 49,
+      "sampled_posting_ids": 52,
+      "inclusion_probability": 1.0,
+      "posting_weight": 1.0,
+      "expected_unique_texts": 49.0,
+      "predicted_AD": 0,
+      "predicted_E": 0
+    },
+    {
+      "cell": "N_RISK",
+      "residual_postings": 621262,
+      "residual_groups": 499198,
+      "sampled_posting_ids": 3000,
+      "inclusion_probability": 0.004828880568906516,
+      "posting_weight": 207.08733333333333,
+      "expected_unique_texts": 2988.922588919614,
+      "predicted_AD": 0,
+      "predicted_E": 0
+    },
+    {
+      "cell": "N_SUPPORT",
+      "residual_postings": 5367,
+      "residual_groups": 4681,
+      "sampled_posting_ids": 600,
+      "inclusion_probability": 0.11179429849077697,
+      "posting_weight": 8.945,
+      "expected_unique_texts": 584.273138933615,
+      "predicted_AD": 0,
+      "predicted_E": 0
+    },
+    {
+      "cell": "P_AD",
+      "residual_postings": 9655,
+      "residual_groups": 7121,
+      "sampled_posting_ids": 250,
+      "inclusion_probability": 0.02589331952356292,
+      "posting_weight": 38.62,
+      "expected_unique_texts": 244.65691406384082,
+      "predicted_AD": 1,
+      "predicted_E": 0
+    },
+    {
+      "cell": "P_BOTH",
+      "residual_postings": 11918,
+      "residual_groups": 9426,
+      "sampled_posting_ids": 400,
+      "inclusion_probability": 0.03356267830172848,
+      "posting_weight": 29.795,
+      "expected_unique_texts": 393.07296708632083,
+      "predicted_AD": 1,
+      "predicted_E": 1
+    },
+    {
+      "cell": "P_E",
+      "residual_postings": 55290,
+      "residual_groups": 45351,
+      "sampled_posting_ids": 1200,
+      "inclusion_probability": 0.02170374389582203,
+      "posting_weight": 46.075,
+      "expected_unique_texts": 1186.4074690209832,
+      "predicted_AD": 0,
+      "predicted_E": 1
+    }
+  ],
+  "annotation_method": "LLM annotation with author review of random and disagreement examples",
+  "author_reviewed_new_records": 20,
+  "author_reviewed_new_component_values": 72,
+  "author_full_vector_new_records": 10,
+  "author_reservation_components": 1,
+  "classifier_fields": [
+    "title",
+    "requirements_qualifications",
+    "responsibilities"
+  ],
+  "reference_additional_field_included": true,
+  "estimator": "Known posting totals plus N_h/n_h times sampled posting labels; selected duplicate copies retained.",
+  "intervals": "simultaneous noncensus-cell hypergeometric tail inversion, explicit label ranges retained.",
+  "confidence_alpha_per_component": 0.05,
+  "reference_condition": "Conditional on all other reference labels; common-mode LLM error is not covered.",
+  "dictionary_changed_during_evaluation": false,
+  "method_reference": "https://doi.org/10.1177/18747655251395229"
+}

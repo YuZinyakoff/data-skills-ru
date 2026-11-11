@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-skills-ru"
+version = "0.1.0"
+description = "Russian dictionary and contextual classifier of data-related and IT job requirements"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Юрий Зиняков"}]
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSES/*.txt", "LICENSE.md"]
+dependencies = ["google-re2==1.1.20251105"]
+keywords = ["job-vacancies", "skills", "russian", "dictionary", "text-classification"]
+
+[project.optional-dependencies]
+parquet = ["duckdb>=1.5,<2"]
+
+[project.scripts]
+data-skills-ru = "data_skills_ru.cli:main"
+
+[tool.setuptools]
+packages = ["data_skills_ru", "data_skills_ru.data"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+data_skills_ru = ["data/*.csv", "data/*.json"]

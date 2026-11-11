@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "contains_corpus_texts": false,
+  "purpose": "Synthetic documentation examples; not an accuracy evaluation.",
+  "cases": [
+    {"identifier":"example-01","source":{"requirements_qualifications":"Знание SQL"},"positive":["D","AD"],"explanation":"Явное требование инструмента работы с базами данных."},
+    {"identifier":"example-02","source":{"requirements_qualifications":"Опыт программирования на Python"},"positive":["E"],"explanation":"Программирование без самостоятельной аналитической задачи."},
+    {"identifier":"example-03","source":{"requirements_qualifications":"Знание машинного обучения и Python"},"positive":["A","AD","E"],"explanation":"Отдельные основания ИИ и общего ИТ."},
+    {"identifier":"example-04","source":{"requirements_qualifications":"Владение Power BI"},"positive":["C","AD"],"explanation":"Специализированное средство анализа и представления данных."},
+    {"identifier":"example-05","source":{"responsibilities":"Регрессионный анализ"},"positive":["B","AD"],"explanation":"Прямо названный количественный метод."},
+    {"identifier":"example-06","source":{"responsibilities":"Финансовый анализ и бухгалтерская отчетность"},"positive":[],"explanation":"Общих финансовых формулировок недостаточно для специальных компетенций AD."},
+    {"identifier":"example-07","source":{"requirements_qualifications":"Уверенный пользователь ПК и Microsoft Office"},"positive":[],"explanation":"Обычная офисная грамотность."},
+    {"identifier":"example-08","source":{"requirements_qualifications":"Высшее образование по специальности «Программирование на Python»"},"positive":[],"explanation":"Только название специальности в дипломе."},
+    {"identifier":"example-09","source":{"responsibilities":"Наша компания использует Python"},"positive":[],"explanation":"Описание технологий компании без собственного требования к кандидату."},
+    {"identifier":"example-10","source":{"responsibilities":"Обучим SQL с нуля"},"positive":[],"explanation":"Обещание будущего обучения."},
+    {"identifier":"example-11","source":{"title":"Учитель информатики"},"positive":["E"],"explanation":"Преподавание конкретной ИТ-дисциплины."},
+    {"identifier":"example-12","source":{"title":"Администратор баз данных"},"positive":["D","AD","E"],"explanation":"Пересечение технической работы с данными и ИТ-администрирования."},
+    {"identifier":"example-13","source":{"responsibilities":"Анализ данных","requirements_qualifications":"Знание SQL"},"positive":["C","D","AD"],"explanation":"Общая аналитическая задача подтверждается специальным инструментом в другом поле."},
+    {"identifier":"example-14","source":{"title":"Оператор станков с ЧПУ"},"positive":["F"],"explanation":"Вспомогательная промышленная группа, вне AD."}
+  ]
+}

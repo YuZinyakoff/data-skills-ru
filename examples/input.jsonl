@@ -1,0 +1,14 @@
+{"identifier": "example-01", "requirements_qualifications": "Знание SQL"}
+{"identifier": "example-02", "requirements_qualifications": "Опыт программирования на Python"}
+{"identifier": "example-03", "requirements_qualifications": "Знание машинного обучения и Python"}
+{"identifier": "example-04", "requirements_qualifications": "Владение Power BI"}
+{"identifier": "example-05", "responsibilities": "Регрессионный анализ"}
+{"identifier": "example-06", "responsibilities": "Финансовый анализ и бухгалтерская отчетность"}
+{"identifier": "example-07", "requirements_qualifications": "Уверенный пользователь ПК и Microsoft Office"}
+{"identifier": "example-08", "requirements_qualifications": "Высшее образование по специальности «Программирование на Python»"}
+{"identifier": "example-09", "responsibilities": "Наша компания использует Python"}
+{"identifier": "example-10", "responsibilities": "Обучим SQL с нуля"}
+{"identifier": "example-11", "title": "Учитель информатики"}
+{"identifier": "example-12", "title": "Администратор баз данных"}
+{"identifier": "example-13", "responsibilities": "Анализ данных", "requirements_qualifications": "Знание SQL"}
+{"identifier": "example-14", "title": "Оператор станков с ЧПУ"}

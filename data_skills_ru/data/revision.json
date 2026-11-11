@@ -1,0 +1,19 @@
+{
+  "package_version": "0.1.0",
+  "dictionary_rows": 222,
+  "rows_by_component": {
+    "A": 73,
+    "B": 20,
+    "C": 46,
+    "D": 28,
+    "E": 44,
+    "F": 11
+  },
+  "synthetic_examples": 14,
+  "code_license": "MIT",
+  "dictionary_license": "CC-BY-4.0",
+  "individual_labels_or_corpus_included": false,
+  "engine_sha256": "14f52f0ecc78d8e00c2e289f19d375bbf8dc08aead535a0c58a0b976a95e1309",
+  "lexicon_sha256": "616594fccbab057a420a7115c9c447cb7177360b28aeded356ab8e75fcff39e5",
+  "regex_backend": "RE2"
+}
