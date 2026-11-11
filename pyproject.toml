@@ -17,6 +17,10 @@ keywords = ["job-vacancies", "skills", "russian", "dictionary", "text-classifica
 [project.optional-dependencies]
 parquet = ["duckdb>=1.5,<2"]
 
+[project.urls]
+Repository = "https://github.com/YuZinyakoff/data-skills-ru"
+Documentation = "https://github.com/YuZinyakoff/data-skills-ru#readme"
+
 [project.scripts]
 data-skills-ru = "data_skills_ru.cli:main"
 

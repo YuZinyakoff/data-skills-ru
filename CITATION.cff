@@ -6,13 +6,16 @@ authors:
   - family-names: "Зиняков"
     given-names: "Юрий"
 version: 0.1.0
+date-released: 2026-11-11
+url: "https://github.com/YuZinyakoff/data-skills-ru"
+repository-code: "https://github.com/YuZinyakoff/data-skills-ru"
 license:
   - MIT
   - CC-BY-4.0
 abstract: >-
   Русскоязычный словарно-контекстный классификатор явно заявленных
   требований к работе с данными и общим ИТ-компетенциям. Содержит
-  222 поисковые записи и локальный словарно-контекстный классификатор.
+  222 поисковые записи; программа работает локально и сохраняет основания решений.
 keywords:
   - "компетенции"
   - "вакансии"
